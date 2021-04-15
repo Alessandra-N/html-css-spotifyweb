@@ -1,0 +1,42 @@
+.dbg {
+    background-color: brown;
+    border: 1px solid black;
+}
+
+#sidebar {
+    height: 100vh;
+}
+#logo_sidebar {
+    height: 6vh;
+}
+#sidebar li>img {
+    height: 4vh;
+}
+
+#navbar_top {
+    height: 12vh; 
+}
+
+nav .btn {
+    font-size: 15px;
+}
+.op_box {
+    opacity: 0.6;
+    background-color: #04080f;
+    top: 0;
+    right: 0;
+    height: 12vh;
+    width: 100%;
+}
+.op_none {
+    opacity: 1;
+}
+
+/* Utilities */
+/* Background colors */
+.bg_black {
+    background-color: black;
+}
+.bg_lightblack {
+    background-color: #141922;
+}
