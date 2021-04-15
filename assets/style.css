@@ -31,6 +31,9 @@ nav .btn {
 .op_none {
     opacity: 1;
 }
+.p_gray {
+    font-size: 13px;
+}
 
 /* Utilities */
 /* Background colors */
