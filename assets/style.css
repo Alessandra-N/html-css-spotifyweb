@@ -38,6 +38,34 @@ nav .btn {
     height: 88vh;
 }
 
+.play_img {
+    height: 6vh;
+}
+footer .row {
+    height: 100%;
+}
+.play_title {
+    line-height: 0.5;
+    font-size: 16px;
+}
+.play_subtitle {
+    font-size: 14px;
+}
+.play_left_icons {
+    font-size: 18px;
+}
+.play_middle_icons {
+    font-size: 25px;
+}
+.play_middle .progress {
+    width: 50%;
+    height: 0.5vh;
+}
+.play_right .progress {
+    width: 60%;
+    height: 0.5vh;
+}
+
 /* Utilities */
 /* Background colors */
 .bg_black {
@@ -51,4 +79,10 @@ nav .btn {
 }
 .p_gray {
     font-size: 13px;
+}
+.bg_progress {
+    background-color: #5a5a5a;
+}
+.bg_progress-bar {
+    background-color: #c1c1c1;
 }
