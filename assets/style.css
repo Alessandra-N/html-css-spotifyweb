@@ -35,7 +35,7 @@ nav .btn {
     opacity: 1;
 }
 #page_content {
-    height: 100vh;
+    height: 88vh;
 }
 
 /* Utilities */
@@ -45,6 +45,9 @@ nav .btn {
 }
 .bg_lightblack {
     background-color: #141922;
+}
+.bg_play {
+    background-color: #282828;
 }
 .p_gray {
     font-size: 13px;
