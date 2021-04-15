@@ -12,7 +12,10 @@
 #sidebar li>img {
     height: 4vh;
 }
-
+.nav_box {
+    height: 12vh;
+    width: 100%;
+}
 #navbar_top {
     height: 12vh; 
 }
@@ -31,8 +34,8 @@ nav .btn {
 .op_none {
     opacity: 1;
 }
-.p_gray {
-    font-size: 13px;
+#page_content {
+    height: 100vh;
 }
 
 /* Utilities */
@@ -42,4 +45,7 @@ nav .btn {
 }
 .bg_lightblack {
     background-color: #141922;
+}
+.p_gray {
+    font-size: 13px;
 }
