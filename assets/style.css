@@ -55,7 +55,10 @@ footer .row {
     font-size: 18px;
 }
 .play_middle_icons {
-    font-size: 25px;
+    font-size: 20px;
+}
+.play_middle_icons i:nth-of-type(3) {
+    font-size: 40px;
 }
 .play_middle .progress {
     width: 50%;
