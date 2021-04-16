@@ -1,40 +1,64 @@
-.dbg {
-    background-color: brown;
-    border: 1px solid black;
-}
-.top_section {
-    height: 88vh;
-}
 /* SIDEBAR */
 #sidebar {
+    padding-top: 12vh;
+    height: 88vh;
+}
+#sidebar .container {
     height: 100%;
 }
 #logo_sidebar {
     height: 6vh;
 }
-#sidebar li>img {
+#sidebar .sidebar_opacity>img {
     height: 4vh;
 }
 .playlist_menu {
     height: 30vh;
 }
+.create_playlist i {
+    padding: 1.5vh;
+    background-color: #707070;
+}
 .txt_darkgrey:hover {
     color: white;
     text-decoration: none;
 }
+.create_playlist:hover .fa-plus {
+    background-color: white;
+}
+.sidebar_opacity {
+    opacity: 0.7;
+}
+.sidebar_opacity:hover{
+    opacity: 1;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+.profile_bottom {
+    height: 5vh;
+    width: 5vh;
+    padding: 1vh;
+}
+.playlist_bottom hr {
+    border-top: 1px solid #5a5a5a;
+}
 /* /END/ SIDEBAR */
 
 /* NAVBAR TOP */
+#navbar_top .navbar {
+    width: 100%;
+}
 #upgrade_btn {
     font-size: 15px;
 }
 #upgrade_btn:hover {
     font-size: 16px;
 }
-
 .op_box {
-    opacity: 0.6;
-    background-color: #04080f;
+    opacity: 0.7;
+    background-color: black;
     top: 0;
     right: 0;
     height: 12vh;
@@ -48,6 +72,9 @@
 /* MAIN CONTENT */
 #page_content {
     height: 88vh;
+}
+#main_nav {
+    margin-top: 12vh;
 }
 .underline-short {
     display:inline-block;
