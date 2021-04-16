@@ -18,6 +18,10 @@
 .playlist_menu {
     height: 30vh;
 }
+.txt_darkgrey:hover {
+    color: white;
+    text-decoration: none;
+}
 /* /END/ SIDEBAR */
 
 /* NAVBAR TOP */
@@ -44,6 +48,23 @@
 /* MAIN CONTENT */
 #page_content {
     height: 88vh;
+}
+.underline-short {
+    display:inline-block;
+    position:relative;
+}
+.underline-short::after{
+    content:'';
+    height:2px;
+    width:20%;
+    background:#587f28;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+    display: none;
+}
+.underline-short:hover:after {
+    display: block;
 }
 .play_img {
     height: 6vh;
@@ -103,7 +124,6 @@ footer .row {
 .bg_play {
     background-color: #282828;
 }
-
 .bg_progress {
     background-color: #5a5a5a;
 }
@@ -111,7 +131,15 @@ footer .row {
     background-color: #c1c1c1;
 }
 /* TYPOGRAPHY */
+.txt_darkwhite {
+    color: #d2d2d2
+}
+.txt_darkgrey {
+    color:#707070
+}
 .p_gray {
     font-size: 13px;
 }
 /* /END/ TYPOGRAPHY */
+
+
