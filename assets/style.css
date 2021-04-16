@@ -15,15 +15,19 @@
 #sidebar li>img {
     height: 4vh;
 }
-/* /END/ SIDEBAR */
-
-/* NAVBAR TOP */
-nav .btn {
-    font-size: 15px;
-}
 .playlist_menu {
     height: 30vh;
 }
+/* /END/ SIDEBAR */
+
+/* NAVBAR TOP */
+#upgrade_btn {
+    font-size: 15px;
+}
+#upgrade_btn:hover {
+    font-size: 16px;
+}
+
 .op_box {
     opacity: 0.6;
     background-color: #04080f;
@@ -43,6 +47,15 @@ nav .btn {
 }
 .play_img {
     height: 6vh;
+}
+.hover_card i {
+    font-size: 70px;
+}
+.card-img-top:hover {
+    opacity: 0.5;
+}
+.hover_card:hover i {
+    display: block!important;
 }
 /* /END/ MAIN CONTENT */
 
@@ -77,7 +90,6 @@ footer .row {
     width: 60%;
     height: 0.5vh;
 }
-
 /* /END/ FOOTER */
 
 /*** Utilities ***/
