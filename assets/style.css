@@ -2,9 +2,12 @@
     background-color: brown;
     border: 1px solid black;
 }
-
+.top_section {
+    height: 88vh;
+}
+/* SIDEBAR */
 #sidebar {
-    height: 100vh;
+    height: 100%;
 }
 #logo_sidebar {
     height: 6vh;
@@ -12,16 +15,14 @@
 #sidebar li>img {
     height: 4vh;
 }
-.nav_box {
-    height: 12vh;
-    width: 100%;
-}
-#navbar_top {
-    height: 12vh; 
-}
+/* /END/ SIDEBAR */
 
+/* NAVBAR TOP */
 nav .btn {
     font-size: 15px;
+}
+.playlist_menu {
+    height: 30vh;
 }
 .op_box {
     opacity: 0.6;
@@ -34,15 +35,23 @@ nav .btn {
 .op_none {
     opacity: 1;
 }
+/* /END/ NAVBAR TOP */
+
+/* MAIN CONTENT */
 #page_content {
     height: 88vh;
 }
-
 .play_img {
     height: 6vh;
 }
+/* /END/ MAIN CONTENT */
+
+/* FOOTER */
 footer .row {
     height: 100%;
+}
+.nav_box {
+    height: 12vh;
 }
 .play_title {
     line-height: 0.5;
@@ -69,7 +78,9 @@ footer .row {
     height: 0.5vh;
 }
 
-/* Utilities */
+/* /END/ FOOTER */
+
+/*** Utilities ***/
 /* Background colors */
 .bg_black {
     background-color: black;
@@ -80,12 +91,15 @@ footer .row {
 .bg_play {
     background-color: #282828;
 }
-.p_gray {
-    font-size: 13px;
-}
+
 .bg_progress {
     background-color: #5a5a5a;
 }
 .bg_progress-bar {
     background-color: #c1c1c1;
 }
+/* TYPOGRAPHY */
+.p_gray {
+    font-size: 13px;
+}
+/* /END/ TYPOGRAPHY */
