@@ -1,18 +1,42 @@
 /* SIDEBAR */
-#sidebar .container {
-    height: 85vh;
+.wrapper {
+    position: fixed;
     padding-top: 12vh;
+    padding-bottom: 10vh;
 }
-#logo_sidebar {
-    height: 6vh;
+.sidebar_home_menu img {
+    width: 15%;
 }
+.avatar_name_img {
+    background-image: url(./img/profile.svg);
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.sidebar_profile hr {
+    border-top: 1px solid #5a5a5a;
+}
+
+
+/* #sidebar {
+    height: 100%;
+}
+#sidebar .container {
+    position: fixed;
+    height: 100%;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+}
+
 #sidebar img {
     height: 4vh;
 }
 .playlist_menu {
     height: 30vh;
 }
-.playlist_menu a {
+.playlist_menu a,
+.home_menu a {
     line-height: 2.5;
     font-size: 14px;
 }
@@ -20,30 +44,32 @@
     font-size: 16px;
 }
 .create_playlist a>i {
-    padding: 1.5vh;
+    padding: 1vh;
     background-color: #707070;
     color: black;
 }
 #sidebar li:hover a,
 .install_app:hover a,
-#main_nav a:hover
- {
+#main_nav a:hover {
     color: white;
     text-decoration: none;
 }
 .profile_bottom {
     height: 5vh;
     width: 5vh;
-    padding: 1vh;
+    padding: 2vh;
 }
 .playlist_bottom hr {
     border-top: 1px solid #5a5a5a;
-}
+} */
 /* /END/ SIDEBAR */
 
 /* NAVBAR TOP */
 #navbar_top .navbar {
     width: 100%;
+}
+#logo_topbar {
+    height: 6vh;
 }
 #upgrade_btn {
     font-size: 15px;
@@ -66,7 +92,6 @@
 
 /* MAIN CONTENT */
 #page_content {
-    height: 88vh;
 }
 #main_nav {
     margin-top: 12vh;
@@ -103,11 +128,12 @@
 /* /END/ MAIN CONTENT */
 
 /* FOOTER */
-footer .row {
-    height: 100%;
+footer {
+    height: 10vh;
+    width: 100%;
 }
 .nav_box {
-    height: 12vh;
+    height: 10vh;
 }
 .play_title {
     line-height: 0.5;

@@ -14,28 +14,116 @@
 </head>
 
 <body>
+    
+    <div class="top_section mx-0 row">
+        <!-- SIDEBAR -->
+        <div id="sidebar" class="col-2 px-0 bg_black">
 
-    <div class="top_section mx-0 row bg_black">
+            <div class="wrapper flex-column">
 
-        <div id="sidebar" class="col-2 px-0">
-            <!-- SIDEBAR -->
-            <nav class="container pl-4 d-flex flex-column align-content-between">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sidebar_home_menu">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <img class="img-fluid" src="./assets/img/home.svg" alt="">
+                                    <a class="txt_darkwhite font-weight-bold" href="#">Home</a>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img class="img-fluid" src="./assets/img/search.svg" alt="">
+                                        <a class="txt_darkgrey font-weight-bold" href="#">Cerca</a>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <div>
+                                        <img class="img-fluid" src="./assets/img/libreria.svg" alt="">
+                                        <a class="txt_darkgrey font-weight-bold" href="#">La tua libreria</a>
+                                    </div>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar_playlist_menu">
+                            <ul class="list-unstyled components">
+                                <li>
+                                    <div class="create_playlist">
+                                        <a class="txt_darkwhite font-weight-bold" href="#">
+                                            <i class="fas fa-plus mr-2"></i>
+                                            Crea playlist
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+
+                        <div class="sidebar_profile">
+                            <div class="install_app">
+                                <a class="txt_darkgrey" href="#">
+                                    <i class="far fa-arrow-alt-circle-down"></i>
+                                    Installa app
+                                </a>
+                            </div>
+                            <hr>
+                            <div class="avatar_name d-flex align-items-center">
+                                <div class="avatar_name_img rounded-circle bg_progress"></div>
+                                <h6 class="text-white">John Doe</h6>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+
+            
+            <!-- <nav class="bg_black container pl-4">
                     
                 <div class="row flex-column top_lists mb-auto">
-                    <ul class="col-12 list-unstyled">
-                            <li class="sidebar_opacity">
+                    <ul class="col-12 home_menu list-unstyled">
+                            <li>
                                 <img src="./assets/img/home.svg" alt="">
                                 <a class="txt_darkwhite font-weight-bold" href="#">Home</a>
                             </li>
                             <li>
-                                <div class="sidebar_opacity">
+                                <div>
                                     <img src="./assets/img/search.svg" alt="">
                                     <a class="txt_darkgrey font-weight-bold" href="#">Cerca</a>
                                 </div>
                                 
                             </li>
                             <li>
-                                <div class="sidebar_opacity">
+                                <div>
                                     <img src="./assets/img/libreria.svg" alt="">
                                     <a class="txt_darkgrey font-weight-bold" href="#">La tua libreria</a>
                                 </div>
@@ -44,9 +132,9 @@
                     </ul>
             
                     <div class="col-12 playlist_menu overflow-auto">
-                        <h4 class="side_play_title text-uppercase font-weight-bold text-white">
+                        <h6 class="side_play_title text-uppercase font-weight-bold text-white">
                             Playlist
-                        </h4>
+                        </h6>
                         <ul class="list-unstyled components">
                             <li>
                                 <div class="create_playlist">
@@ -102,7 +190,7 @@
                         </div>
                 </div>
     
-            </nav>
+            </nav> -->
             <!-- /END/SIDEBAR -->
           
         </div>
@@ -111,7 +199,7 @@
         <div id="navbar_top" class="fixed-top nav_box d-flex align-items-center">
             <div class="op_box position-absolute"></div>
             <nav class="navbar navbar-light op_none  d-flex justify-content-between">
-                <img id="logo_sidebar" class="my-4 op_none" src="./assets/img/logo.svg" alt="">
+                <img id="logo_topbar" class="my-4 op_none" src="./assets/img/logo.svg" alt="">
                 <button id="upgrade_btn" class="btn text-white border-white btn-lg rounded-pill my-2 my-sm-0 px-5 py-2 font-weight-bold" type="submit">EFFETTUA L'UPGRADE</button>
             </nav>
         </div>
