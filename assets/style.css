@@ -1,40 +1,35 @@
 /* SIDEBAR */
-#sidebar {
-    padding-top: 12vh;
-    height: 88vh;
-}
 #sidebar .container {
-    height: 100%;
+    height: 85vh;
+    padding-top: 12vh;
 }
 #logo_sidebar {
     height: 6vh;
 }
-#sidebar .sidebar_opacity>img {
+#sidebar img {
     height: 4vh;
 }
 .playlist_menu {
     height: 30vh;
 }
-.create_playlist i {
+.playlist_menu a {
+    line-height: 2.5;
+    font-size: 14px;
+}
+.create_playlist a {
+    font-size: 16px;
+}
+.create_playlist a>i {
     padding: 1.5vh;
     background-color: #707070;
+    color: black;
 }
-.txt_darkgrey:hover {
+#sidebar li:hover a,
+.install_app:hover a,
+#main_nav a:hover
+ {
     color: white;
     text-decoration: none;
-}
-.create_playlist:hover .fa-plus {
-    background-color: white;
-}
-.sidebar_opacity {
-    opacity: 0.7;
-}
-.sidebar_opacity:hover{
-    opacity: 1;
-}
-a:hover {
-    text-decoration: none;
-    color: white;
 }
 .profile_bottom {
     height: 5vh;
