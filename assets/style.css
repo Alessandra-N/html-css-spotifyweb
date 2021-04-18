@@ -1,11 +1,14 @@
+.top_section .row {
+    height: ;
+}
 /* SIDEBAR */
 .wrapper {
     position: fixed;
+    height: 88vh;
     padding-top: 12vh;
-    padding-bottom: 10vh;
 }
 .sidebar_home_menu img {
-    width: 15%;
+    width: 5vh;
 }
 .avatar_name_img {
     background-image: url(./img/profile.svg);
@@ -17,7 +20,11 @@
 .sidebar_profile hr {
     border-top: 1px solid #5a5a5a;
 }
-
+#sidebar li:hover a,
+.install_app:hover a  {
+    color: white;
+    text-decoration: none;
+}
 
 /* #sidebar {
     height: 100%;
@@ -92,6 +99,7 @@
 
 /* MAIN CONTENT */
 #page_content {
+    height: 90vh;
 }
 #main_nav {
     margin-top: 12vh;
@@ -139,25 +147,46 @@ footer {
     line-height: 0.5;
     font-size: 16px;
 }
-.play_subtitle {
+.play_subtitle >a {
     font-size: 14px;
+    text-decoration: none;
 }
+.play_subtitle>a:hover {
+    color: white!important;
+    text-decoration: underline;
+}
+
 .play_left_icons {
     font-size: 18px;
 }
+.play_left_icons>i:hover{
+    color: white;
+}
+
 .play_middle_icons {
     font-size: 20px;
 }
 .play_middle_icons i:nth-of-type(3) {
     font-size: 40px;
 }
+.play_middle_icons i:nth-of-type(3):hover {
+    font-size: 50px;
+}
 .play_middle .progress {
     width: 50%;
     height: 0.5vh;
 }
-.play_right .progress {
-    width: 60%;
-    height: 0.5vh;
+.progress-bar:hover {
+    background-color: greenyellow;
+}
+.progress-bar:hover:after {
+    background-color: lightgray;
+    border-radius: 50%;
+    content: "";
+    height: 18px;
+    width: 18px;
+    margin-left: 36%;
+    position: absolute;
 }
 /* /END/ FOOTER */
 
