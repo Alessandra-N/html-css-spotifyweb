@@ -10,6 +10,9 @@
 .sidebar_home_menu img {
     width: 5vh;
 }
+.sidebar_playlist_menu i {
+    padding: 1.5vh;
+}
 .avatar_name_img {
     background-image: url(./img/profile.svg);
     background-position: center;
@@ -21,54 +24,14 @@
     border-top: 1px solid #5a5a5a;
 }
 #sidebar li:hover a,
-.install_app:hover a  {
-    color: white;
-    text-decoration: none;
-}
-
-/* #sidebar {
-    height: 100%;
-}
-#sidebar .container {
-    position: fixed;
-    height: 100%;
-    padding-top: 12vh;
-    padding-bottom: 12vh;
-}
-
-#sidebar img {
-    height: 4vh;
-}
-.playlist_menu {
-    height: 30vh;
-}
-.playlist_menu a,
-.home_menu a {
-    line-height: 2.5;
-    font-size: 14px;
-}
-.create_playlist a {
-    font-size: 16px;
-}
-.create_playlist a>i {
-    padding: 1vh;
-    background-color: #707070;
-    color: black;
-}
-#sidebar li:hover a,
 .install_app:hover a,
 #main_nav a:hover {
     color: white;
     text-decoration: none;
 }
-.profile_bottom {
-    height: 5vh;
-    width: 5vh;
-    padding: 2vh;
+.sidebar_playlist_menu li:hover i {
+    background-color: white;
 }
-.playlist_bottom hr {
-    border-top: 1px solid #5a5a5a;
-} */
 /* /END/ SIDEBAR */
 
 /* NAVBAR TOP */
@@ -187,6 +150,13 @@ footer {
     width: 18px;
     margin-left: 36%;
     position: absolute;
+}
+.play_right .progress {
+    width: 50%;
+    height: 0.5vh;
+}
+.play_right .progress-bar:hover:after {
+    margin-left: 30%;
 }
 /* /END/ FOOTER */
 
