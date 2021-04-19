@@ -1,6 +1,5 @@
-main {
-    max-height: 87.5vh;
-    min-height: 87.5vh;
+.top_section {
+    height: 100vh;
 }
 /* SIDEBAR */
 #sidebar {
@@ -23,6 +22,9 @@ main {
 }
 .sidebar_home_menu img {
     width: 20px;
+}
+.sidebar_playlist_menu {
+    height: 35vh;
 }
 .sidebar_playlist_menu i {
     padding: 8px;
@@ -71,6 +73,10 @@ hr {
 #upgrade_btn:hover {
     font-size: 15px;
 }
+#logo_top_hidden {
+    width: 26px;
+    display: none;
+}
 .op_box {
     opacity: 0.7;
     background-color: black;
@@ -85,6 +91,9 @@ hr {
 /* /END/ NAVBAR TOP */
 
 /* MAIN CONTENT */
+#page_content {
+    height: 90%;
+}
 #main_nav {
     margin-top: 100px;
 }
@@ -127,6 +136,7 @@ hr {
 
 /* FOOTER */
 .nav_box {
+    height: 90px;
     min-height: 90px;
 }
 .play_title {
@@ -134,7 +144,7 @@ hr {
     font-size: 15px;
 }
 .play_subtitle >a {
-    font-size: 13px;
+    font-size: 10px;
     text-decoration: none;
 }
 .play_subtitle>a:hover {
@@ -142,8 +152,9 @@ hr {
     text-decoration: underline;
 }
 
-.play_left_icons {
-    font-size: 18px;
+.play_left_icons,
+.play_right_icons {
+    font-size: 14px;
 }
 .play_left_icons>i:hover{
     color: white;
@@ -160,7 +171,7 @@ hr {
     font-size: 50px;
 }
 .play_middle .progress {
-    width: 50%;
+    width: 70%;
     height: 3px;
 }
 .progress-bar:hover {
@@ -225,13 +236,100 @@ hr {
     .hidden_box {
         display: block;
     }
+
+    #logo_topbar {
+        display: none;
+    }
+    #upgrade_btn {
+        font-size: 10px;
+    }
+    #upgrade_btn:hover {
+        font-size: 12px;
+    }
+    #logo_top_hidden {
+        display: block;
+    }
+
+    .play_left_icons,
+    .play_right_icons {
+        font-size: 8px;
+    } 
+    .play_middle_icons {
+        font-size: 12px;
+        height: 30px;
+    }
+    .play_middle_icons i:nth-of-type(3) {
+        font-size: 20px;
+    }
+    .play_middle_icons i:nth-of-type(3):hover {
+        font-size: 25px;
+    }
+    .play_middle .progress {
+        width: 48%;
+        height: 3px;
+    } 
+    .play_right {
+        display: none;
+    }
+    .play_title {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+    .play_subtitle { 
+        font-size: 8px;
+        line-height: 1.2;
+    }    
 }
 
 @media (min-width: 576px) { 
+    .play_left_icons {
+        display: flex;
+    }
+
+    .play_left_icons,
+    .play_right_icons {
+        font-size: 10px;
+    } 
+    .play_middle_icons {
+        font-size: 16px;
+        height: 30px;
+    }
+    .play_middle_icons i:nth-of-type(3) {
+        font-size: 20px;
+    }
+    .play_middle_icons i:nth-of-type(3):hover {
+        font-size: 30px;
+    }
+    .play_middle .progress {
+        width: 64%;
+        height: 3px;
+    }
+    .play_right .progress {
+        width: 54%;
+        height: 3px;
+    }  
     
 }
 
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+    .play_left_icons,
+    .play_right_icons {
+        font-size: 12px;
+    } 
+    .play_left_icons {
+        display: flex;
+    }
+    .play_middle_icons {
+        font-size: 14px;
+        height: 30px;
+    }
+    .play_middle_icons i:nth-of-type(3) {
+        font-size: 25px;
+    }
+    .play_middle_icons i:nth-of-type(3):hover {
+        font-size: 30px;
+    }   
+}
 
 @media (min-width: 992px) { ... }
 

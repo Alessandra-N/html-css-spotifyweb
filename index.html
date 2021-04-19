@@ -59,8 +59,8 @@
 
                         <h6 class="text-uppercase text-white font-weight-bold p_gray mb-3 mt-4">Playlist</h6>
 
-                        <div class="sidebar_playlist_menu">
-                            <ul class="list-unstyled components">
+                        <div class="sidebar_playlist_menu overflow-auto">
+                            <ul class="list-unstyled components overflow-auto">
                                 <li>
                                     <div class="create_playlist">
                                         <a class="txt_darkgrey font-weight-bold" href="#">
@@ -109,7 +109,7 @@
                             <hr class="my-2">
                             <div class="avatar_name d-flex align-items-center">
                                 <div class="avatar_name_img rounded-circle bg_progress mb-2"></div>
-                                <h6 class="text-white">John Doe</h6>
+                                <h6 class="text-white ml-2">John Doe</h6>
                             </div>
                         </div>
                         
@@ -124,7 +124,8 @@
         <!-- FLOATING NAVBAR TOP -->
         <div id="navbar_top" class="fixed-top nav_box d-flex align-items-center">
             <div class="op_box position-absolute"></div>
-            <nav class="navbar navbar-light op_none  d-flex justify-content-between">
+            <nav class="navbar navbar-light op_none d-flex justify-content-between px-2">
+                <img src="./assets/img/logo-small.svg" alt="" id="logo_top_hidden" class="mx-">
                 <img id="logo_topbar" class="my-4 op_none" src="./assets/img/logo.svg" alt="">
                 <button id="upgrade_btn" class="btn text-white border-white btn-lg rounded-pill my-2 my-sm-0 px-5 py-2 font-weight-bold" type="submit">EFFETTUA L'UPGRADE</button>
             </nav>
@@ -285,33 +286,34 @@
 
     <footer>
         <!-- MUSIC PLAYER BOTTOM -->
+        
         <div class="row mx-0 px-0">
-            <div class="px-0 py-2 d-flex bg_play align-items-center fixed-bottom">
-                <div id="play_navbar" class="nav_box col-2 d-flex justify-content-between d-flex align-items-center">
+            <div class="nav_box px-0 py-2 d-flex bg_play align-items-center fixed-bottom">
+                <div id="play_navbar" class="col-lg-3 col-3  d-flex justify-content-center">
 
-                    <div class="play_left_info d-flex justify-content-center align-items-center">
+                    <div class="play_left_info mr-auto d-flex align-items-center">
                         <img class="play_img" src="./assets/img/sinister.jpeg" alt="">
-                        <div class="play_info text-white ml-3">
+                        <div class="play_info text-white ml-md-3 ml-2">
                             <div class="play_title text-white font-weight-bold">Sinister</div>
                             <div class="play_subtitle">
-                                <a class="text-secondary" href="">Brano nome</a>
+                                <a class="text-secondary font-weight-bold" href="">Brano nome</a>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="play_left_icons text-secondary">
-                        <i class="far fa-heart"></i>
-                        <i class="far fa-folder ml-2"></i>
+                    <div class="play_left_icons text-secondary d-flex justify-content-center align-items-center flex-md-row flex-column">
+                        <i class="far fa-heart mb-md-0 mb-2"></i>
+                        <i class="far fa-folder ml-md-2 mb-md-0"></i>
                     </div>
                 </div>
-                <div class="col-8 play_middle d-flex flex-column justify-content-center">
+                <div class="col-lg-6 col-6 play_middle d-flex flex-column justify-content-center">
 
                     <div class="play_middle_icons text-white d-flex justify-content-center align-items-center">
-                        <i class="fas fa-random mx-3"></i>
-                        <i class="fas fa-step-backward mx-3"></i>
-                        <i class="far fa-play-circle mx-4"></i>
-                        <i class="fas fa-step-forward mx-3"></i>
-                        <i class="fas fa-redo-alt mx-3"></i>
+                        <i class="fas fa-random mx-2"></i>
+                        <i class="fas fa-step-backward mx-2"></i>
+                        <i class="far fa-play-circle mx-sm-4 mx-4"></i>
+                        <i class="fas fa-step-forward mx-2"></i>
+                        <i class="fas fa-redo-alt mx-2"></i>
                     </div>
 
                     <div class="progress_bar text-white d-flex justify-content-center align-items-center p_gray">
@@ -324,11 +326,11 @@
                     
                 </div>
 
-                <div class="col-2 play_right d-flex align-items-center justify-content-between">
-                    <div class="play_right_icons text-white">
+                <div class="play_right col-lg-3 col-3 px-2 play_right d-flex align-items-center justify-content-end">
+                    <div class="play_right_icons text-white mr-lg-3 mr-md-2">
                         <i class="fas fa-list mr-2"></i>
                         <i class="fas fa-desktop mr-2"></i>
-                        <i class="fas fa-volume-up mr-2"></i>
+                        <i class="fas fa-volume-up mr-sm-2 mr-1"></i>
                     </div>    
                     
                     <div class="progress bg_progress">
