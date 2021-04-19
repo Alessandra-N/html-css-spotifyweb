@@ -13,6 +13,10 @@
 }
 .hidden_box {
     display: none;
+    height: 87%;
+}
+.hidden_box>.d-flex {
+    height: 100%;
 }
 .hidden_img {
     padding-top: 100px;
@@ -328,7 +332,7 @@ hr {
     }
     .play_middle_icons i:nth-of-type(3):hover {
         font-size: 30px;
-    }   
+    }  
 }
 
 @media (min-width: 992px) { ... }
