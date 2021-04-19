@@ -187,7 +187,7 @@ hr {
     content: "";
     height: 18px;
     width: 18px;
-    margin-left: 36%;
+    margin-left: 45%;
     position: absolute;
 }
 .play_right .progress {
@@ -195,7 +195,7 @@ hr {
     height: 3px;
 }
 .play_right .progress-bar:hover:after {
-    margin-left: 30%;
+    margin-left: 36%;
 }
 /* /END/ FOOTER */
 
