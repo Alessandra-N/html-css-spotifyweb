@@ -24,27 +24,30 @@
                 <div class="row mb-auto">
                     <div class="col-12">
                         <div class="sidebar_home_menu">
-                            <ul class="list-unstyled">
-                                <li>
+                            <ul class="list-unstyled position-relative">
+                                <li class="mb-1 d-flex align-items-end">
+                                    <div class="sideline"></div>
                                     <img class="img-fluid" src="./assets/img/home.svg" alt="">
-                                    <a class="txt_darkwhite font-weight-bold" href="#">Home</a>
+                                    <a class="text-white font-weight-bold p_playlist" href="#">Home</a>
                                 </li>
-                                <li>
+                                <li class="mb-1">
                                     <div>
                                         <img class="img-fluid" src="./assets/img/search.svg" alt="">
-                                        <a class="txt_darkgrey font-weight-bold" href="#">Cerca</a>
+                                        <a class="txt_darkgrey font-weight-bold p_playlist" href="#">Cerca</a>
                                     </div>
                                     
                                 </li>
-                                <li>
+                                <li class="mb-2">
                                     <div>
                                         <img class="img-fluid" src="./assets/img/libreria.svg" alt="">
-                                        <a class="txt_darkgrey font-weight-bold" href="#">La tua libreria</a>
+                                        <a class="txt_darkgrey font-weight-bold p_playlist" href="#">La tua libreria</a>
                                     </div>
                                     
                                 </li>
                             </ul>
                         </div>
+
+                        <h6 class="text-uppercase text-white font-weight-bold p_playlist mb-3 mt-4">Playlist</h6>
 
                         <div class="sidebar_playlist_menu">
                             <ul class="list-unstyled components">
@@ -57,25 +60,25 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                    <a class="txt_darkgrey font-weight-bold p_playlist" href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                    <a class="txt_darkgrey font-weight-bold p_playlist" href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                    <a class="txt_darkgrey font-weight-bold p_playlist" href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                    <a class="txt_darkgrey font-weight-bold p_playlist" href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                    <a class="txt_darkgrey font-weight-bold p_playlist" href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                    <a class="txt_darkgrey font-weight-bold p_playlist" href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a class="txt_darkgrey font-weight-bold" href="#">Nome Playlist</a>
+                                    <a class="txt_darkgrey font-weight-bold p_playlist" href="#">Nome Playlist</a>
                                 </li>
                             </ul>
                         </div>
@@ -88,14 +91,14 @@
 
                         <div class="sidebar_profile">
                             <div class="install_app">
-                                <a class="txt_darkgrey" href="#">
+                                <a class="txt_darkgrey font-weight-bold p_playlist" href="#">
                                     <i class="far fa-arrow-alt-circle-down"></i>
                                     Installa app
                                 </a>
                             </div>
-                            <hr>
+                            <hr class="my-2">
                             <div class="avatar_name d-flex align-items-center">
-                                <div class="avatar_name_img rounded-circle bg_progress"></div>
+                                <div class="avatar_name_img rounded-circle bg_progress mb-2"></div>
                                 <h6 class="text-white">John Doe</h6>
                             </div>
                         </div>
@@ -124,11 +127,11 @@
             <div class="container text-uppercase">
                 <nav id="main_nav" class="navbar navbar-expand-lg navbar-light justify-content-center">
                     <a class="txt_darkgrey font-weight-bold mr-4 underline-short" href="#">In evidenza</a>
-                    <a class="txt_darkgrey font-weight-bold mr-4 underline-short" href="#">Podcast</a>
-                    <a class="txt_darkgrey font-weight-bold mr-4 underline-short" href="#">Classifiche</a>
-                    <a class="txt_darkgrey font-weight-bold mr-4 underline-short" href="#">Generi e mood</a>
-                    <a class="txt_darkgrey font-weight-bold mr-4 underline-short" href="#">nuove uscite</a>
-                    <a class="txt_darkgrey font-weight-bold mr-4 underline-short" href="#">scopri</a>
+                    <a class="txt_darkgrey font-weight-bold mr-4" href="#">Podcast</a>
+                    <a class="txt_darkgrey font-weight-bold mr-4" href="#">Classifiche</a>
+                    <a class="txt_darkgrey font-weight-bold mr-4" href="#">Generi e mood</a>
+                    <a class="txt_darkgrey font-weight-bold mr-4" href="#">nuove uscite</a>
+                    <a class="txt_darkgrey font-weight-bold mr-4" href="#">scopri</a>
                 </nav>
             </div>
             <!-- /END/ NAVBAR MAIN -->
@@ -264,7 +267,7 @@
 
     <footer>
         <!-- MUSIC PLAYER BOTTOM -->
-        <div class="row mx-0 px-0">
+        <div class="row mx-0 px-0 fixed-bottom">
             <div class="px-2 py-2 d-flex fixed-bottom bg_play align-items-center">
                 <div id="play_navbar" class="nav_box col-2 d-flex justify-content-between d-flex align-items-center">
 

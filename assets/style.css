@@ -1,17 +1,28 @@
-.top_section .row {
-    height: ;
-}
 /* SIDEBAR */
+#sidebar {
+    width: 100%;
+}
 .wrapper {
     position: fixed;
-    height: 88vh;
+    height: 88%;
+    width: 16.5%;
     padding-top: 12vh;
 }
 .sidebar_home_menu img {
-    width: 5vh;
+    width: 3.5vh;
 }
 .sidebar_playlist_menu i {
-    padding: 1.5vh;
+    padding: 1vh;
+}
+.sidebar_playlist_menu>ul>li {
+    margin-bottom: 0.5rem;
+}
+.sideline {
+    height: 25px;
+    width: 3px;
+    background: greenyellow;
+    position: absolute;
+    left: -8px;
 }
 .avatar_name_img {
     background-image: url(./img/profile.svg);
@@ -20,7 +31,7 @@
     width: 30px;
     height: 30px;
 }
-.sidebar_profile hr {
+hr {
     border-top: 1px solid #5a5a5a;
 }
 #sidebar li:hover a,
@@ -42,10 +53,10 @@
     height: 6vh;
 }
 #upgrade_btn {
-    font-size: 15px;
+    font-size: 14px;
 }
 #upgrade_btn:hover {
-    font-size: 16px;
+    font-size: 15px;
 }
 .op_box {
     opacity: 0.7;
@@ -62,7 +73,7 @@
 
 /* MAIN CONTENT */
 #page_content {
-    height: 90vh;
+    min-height: 90vh;
 }
 #main_nav {
     margin-top: 12vh;
@@ -79,10 +90,6 @@
     position:absolute;
     left:calc(50% - 10%);
     bottom:-5px;
-    display: none;
-}
-.underline-short:hover:after {
-    display: block;
 }
 .play_img {
     height: 6vh;
@@ -108,10 +115,10 @@ footer {
 }
 .play_title {
     line-height: 0.5;
-    font-size: 16px;
+    font-size: 15px;
 }
 .play_subtitle >a {
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
 }
 .play_subtitle>a:hover {
@@ -185,6 +192,9 @@ footer {
     color:#707070
 }
 .p_gray {
+    font-size: 13px;
+}
+.p_playlist {
     font-size: 13px;
 }
 /* /END/ TYPOGRAPHY */
