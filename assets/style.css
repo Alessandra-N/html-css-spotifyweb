@@ -7,7 +7,7 @@
 }
 .wrapper {
     position: fixed;
-    height: 88%;
+    height: 100%;
     width: 100%;
     padding-top: 100px;
 }
@@ -35,6 +35,9 @@
 }
 .sidebar_playlist_menu>ul>li {
     margin-bottom: 0.5rem;
+}
+.sidebar_profile {
+    margin-bottom: 80px;
 }
 .sideline {
     height: 20px;
@@ -96,7 +99,8 @@ hr {
 
 /* MAIN CONTENT */
 #page_content {
-    height: 90%;
+    height: 100vh;
+    padding-bottom: 80px;
 }
 #main_nav {
     margin-top: 100px;
@@ -130,7 +134,7 @@ hr {
 .hover_card i {
     font-size: 70px;
 }
-.card-img-top:hover {
+.hover_card:hover .card-img-top {
     opacity: 0.5;
 }
 .hover_card:hover i {
